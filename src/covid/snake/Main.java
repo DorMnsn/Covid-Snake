@@ -1,11 +1,11 @@
-package com.zetcode;
+package covid.snake;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
-public class Snake extends JFrame {
+public class Main extends JFrame {
 
-    public Snake() {
+    public Main() {
         
         initUI();
     }
@@ -17,7 +17,7 @@ public class Snake extends JFrame {
         setResizable(false);
         pack();
         
-        setTitle("Snake");
+        setTitle("CovidSnake");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
@@ -26,7 +26,7 @@ public class Snake extends JFrame {
     public static void main(String[] args) {
         
         EventQueue.invokeLater(() -> {
-            JFrame ex = new Snake();
+            JFrame ex = new Main();
             ex.setVisible(true);
         });
     }

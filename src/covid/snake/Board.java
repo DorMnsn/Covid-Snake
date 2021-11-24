@@ -1,4 +1,4 @@
-package com.zetcode;
+package covid.snake;
 
 import java.awt.Color;
 import java.awt.Dimension;
