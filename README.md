@@ -1,1 +1,1 @@
-"# Covid-Snake" 
+A project based on snake made by zeetcode. It is a snake-like game where you it people instade of apple, have growing virus instead of growing snake and need to avoid vaccines.
